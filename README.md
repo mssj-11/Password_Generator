@@ -1,3 +1,3 @@
 # Password_Generator
 
-![View Project](https://p4ssgenerator.netlify.app/)
+[View Project](https://p4ssgenerator.netlify.app/)
