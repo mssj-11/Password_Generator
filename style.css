@@ -1,0 +1,80 @@
+*{
+    margin: 0;  padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    color: #fbf8f3;
+}
+
+.container{
+    width: 400px;
+    background-color: #191919;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .6);
+}
+
+.head{  padding: 1rem;  }
+
+.pw{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #232323;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.copy:hover{  border: 1.5px solid #fff;   cursor: pointer; }
+.copy:focus{    background: #1bc23e;    border: none;  }
+
+.pw button{
+    position: absolute;
+    top: 0; right: 0;
+    border: none;
+    padding: .25rem 1rem;
+    background-color: #111;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: opacity .2s ease, transform .2s ease;
+}
+
+.pw:hover button{
+    opacity: 1;
+    transform: translate(0, -80%);
+}
+
+.number{  border: none;  }
+.pw{  justify-content: center;  text-align: center; align-items: center; }
+
+.pass-body{  padding: 0 1rem 1rem; }
+
+.form{
+    color: #eee;
+    margin: 0 .75rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.generate{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #fff0eb;
+    color: #111;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.generate:hover{    transform: scale(.8);   }
